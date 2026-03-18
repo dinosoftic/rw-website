@@ -28,7 +28,7 @@
   
   /* Typography */
   --font-primary: 'DM Sans', sans-serif;
-  --font-heading: 'Instrument Serif', serif;
+  --font-heading: 'Open Sans', sans-serif;
   --font-accent: 'DM Sans', sans-serif;
   
   /* Spacing */
@@ -145,7 +145,7 @@ ul, ol {
    -------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.15;
   color: var(--color-secondary);
   letter-spacing: -0.01em;
