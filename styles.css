@@ -1704,6 +1704,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.resource-group {
+  text-align: center;
+}
+
 .resource-group h3 {
   font-size: 24px;
   margin-bottom: var(--spacing-md);
