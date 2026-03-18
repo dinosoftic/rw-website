@@ -9,5 +9,11 @@ Desktop.ini
 *.swp
 *.swo
 
+# Dependencies
+node_modules/
+
 # Logs
 *.log
+
+# Wrangler
+.wrangler/
