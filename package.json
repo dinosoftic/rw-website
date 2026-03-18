@@ -1,0 +1,25 @@
+{
+  "name": "rw-website-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinosoftic/rw-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dinosoftic/rw-website/issues"
+  },
+  "homepage": "https://github.com/dinosoftic/rw-website#readme",
+  "dependencies": {
+    "@mondaydotcomorg/api": "^14.0.0",
+    "monday-sdk-js": "^0.5.8"
+  }
+}
