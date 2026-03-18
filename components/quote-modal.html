@@ -1,0 +1,55 @@
+<div class="modal-overlay" id="quote-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3>Get a FREE Quote</h3>
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p>Fill out the form below and we'll get back to you within 24 hours with a free, no-obligation quote.</p>
+      
+      <form class="contact-form" id="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="quote-name">Name *</label>
+          <input type="text" id="quote-name" name="name" required placeholder="Your Name">
+        </div>
+        
+        <div class="form-group">
+          <label for="quote-email">Email *</label>
+          <input type="email" id="quote-email" name="email" required placeholder="your@email.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="quote-phone">Phone *</label>
+          <input type="tel" id="quote-phone" name="phone" required placeholder="(218) 555-1234">
+        </div>
+        
+        <div class="form-group">
+          <label for="quote-city">City/Town</label>
+          <input type="text" id="quote-city" name="city" placeholder="Grand Rapids, Duluth, etc.">
+        </div>
+        
+        <div class="form-group">
+          <label for="quote-service">Service Interested In</label>
+          <select id="quote-service" name="service">
+            <option value="">Select a service...</option>
+            <option value="water-softener">Water Softener</option>
+            <option value="iron-removal">Iron Removal</option>
+            <option value="reverse-osmosis">Reverse Osmosis</option>
+            <option value="whole-house-filtration">Whole House Filtration</option>
+            <option value="water-testing">Water Testing</option>
+            <option value="service-repair">Service & Repair</option>
+            <option value="commercial">Commercial System</option>
+            <option value="other">Other / Not Sure</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="quote-message">Tell us about your water issues</label>
+          <textarea id="quote-message" name="message" rows="4" placeholder="Describe any water problems you're experiencing..."></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-accent" style="width: 100%;">Request My Free Quote</button>
+      </form>
+    </div>
+  </div>
+</div>
